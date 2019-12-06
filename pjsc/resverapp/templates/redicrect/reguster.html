@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+</head>
+<body>
+    <form action="{% url 'rev:reg' %}" method="post">
+        {% csrf_token %}
+        用户名：<input type="text" name="rename">
+        密码： <input type="password" name="repasswd">
+        <input type="submit" value="注册">
+</body>
+</html>

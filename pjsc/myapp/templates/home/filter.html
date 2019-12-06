@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+{% load myfilter %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {{ data|get_value_filter:key }}
+</body>
+</html>

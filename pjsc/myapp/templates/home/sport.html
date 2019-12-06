@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运动信息</title>
+</head>
+<body>
+<ul>
+  {% for sport in sports %}
+      <li>{{ sport }}</li>
+      {% empty %}
+      <li style="color: aqua">没有运动信息</li>
+  {% endfor %}
+</ul>
+
+</body>
+</html>
