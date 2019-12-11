@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
     'resverapp',
     'staticapp',
-    'dataapp'
+    'dataapp',
+    'modelsrelapp'
 ]
 
 MIDDLEWARE = [
