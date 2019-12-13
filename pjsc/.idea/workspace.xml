@@ -2,10 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e59c3e7-af07-49de-82f4-af0967dbba62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/modelsrelapp/migrations/0005_auto_20191211_1815.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modelsrelapp/models/mangtomany.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/mypjsc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/ststic/images/123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/ststic/images/girl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/templates/form_data.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/mypjsc/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/mypjsc/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/mypjsc/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mypjsc/mypjsc/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadapp/templates/uploadapp/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uploadapp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pjsc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pjsc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modelsrelapp/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/modelsrelapp/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pjsc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pjsc/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pjsc/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pjsc/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resverapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/resverapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploadapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uploadapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +46,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,22 +79,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uploadapp" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\pjsc\myapp" />
-      <recent name="D:\PycharmProjects\pjsc\pjsc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\pjsc\uploadapp" />
       <recent name="D:\PycharmProjects\pjsc\dataapp" />
       <recent name="D:\PycharmProjects\pjsc\staticapp" />
       <recent name="D:\PycharmProjects\pjsc\resverapp" />
       <recent name="D:\PycharmProjects\pjsc\myapp" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\pjsc\uploadapp\templates\uploadapp" />
+      <recent name="D:\PycharmProjects\pjsc\myapp" />
+      <recent name="D:\PycharmProjects\pjsc\pjsc" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RunManager" selected="Python.settings">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pjsc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,6 +119,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pjsc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pjsc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pjsc/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pjsc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -103,6 +155,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pjsc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uploadapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uploadapp/views.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,6 +210,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.views" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.urls" />
       </list>
@@ -174,6 +250,9 @@
       <workItem from="1575939917148" duration="603000" />
       <workItem from="1575941445655" duration="5033000" />
       <workItem from="1576027950921" duration="21166000" />
+      <workItem from="1576201890927" duration="542000" />
+      <workItem from="1576202467562" duration="4035000" />
+      <workItem from="1576207080460" duration="9623000" />
     </task>
     <task id="LOCAL-00001" summary="第二次">
       <created>1575628225453</created>
@@ -231,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576054589600</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="第九次">
+      <created>1576202091425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576202091425</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +332,8 @@
     <MESSAGE value="第六次" />
     <MESSAGE value="第七次" />
     <MESSAGE value="第八次" />
-    <option name="LAST_COMMIT_MESSAGE" value="第八次" />
+    <MESSAGE value="第九次" />
+    <option name="LAST_COMMIT_MESSAGE" value="第九次" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1575445011943">
@@ -261,53 +348,59 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="697" y="0" key="#models/0.0.1280.680@0.0.1280.680" timestamp="1575965776774" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1576054588424">
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1576202089968">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1576054588424" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1576202089968" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1576215032353">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576215032353" />
     <state x="465" y="237" width="375" height="207" key="Github.CreateGistDialog" timestamp="1575620247238">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="465" y="237" width="375" height="207" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1575620247238" />
-    <state width="782" height="103" key="GridCell.Tab.0.bottom" timestamp="1575966205230">
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom" timestamp="1576217449569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="782" height="103" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575966205230" />
-    <state width="782" height="103" key="GridCell.Tab.0.center" timestamp="1575966205230">
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state width="1237" height="141" key="GridCell.Tab.0.center" timestamp="1576217449569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="782" height="103" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575966205230" />
-    <state width="782" height="103" key="GridCell.Tab.0.left" timestamp="1575966205230">
+    <state width="1237" height="141" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state width="1237" height="141" key="GridCell.Tab.0.left" timestamp="1576217449569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="782" height="103" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575966205230" />
-    <state width="782" height="103" key="GridCell.Tab.0.right" timestamp="1575966205230">
+    <state width="1237" height="141" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state width="1237" height="141" key="GridCell.Tab.0.right" timestamp="1576217449569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="782" height="103" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575966205230" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1575708824814">
+    <state width="1237" height="141" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state x="284" y="0" key="SettingsEditor" timestamp="1576214993590">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1575708824814" />
+    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1576214993590" />
     <state x="147" y="70" key="Vcs.Push.Dialog.v2" timestamp="1575625433791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="147" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1575625433791" />
-    <state x="324" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1576027951511">
+    <state x="324" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1576207081590">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="324" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576027951511" />
+    <state x="324" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576207081590" />
     <state x="600" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576059445542">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="600" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1576059445542" />
-    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1576051773808">
+    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1576207430624">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1576051773808" />
+    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1576207430624" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pjsc$manage.coverage" NAME="manage Coverage Results" MODIFIED="1575965722132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pjsc$settings.coverage" NAME="settings Coverage Results" MODIFIED="1576217449559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pjsc" />
+    <SUITE FILE_PATH="coverage/pjsc$views.coverage" NAME="views Coverage Results" MODIFIED="1576217319180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uploadapp" />
     <SUITE FILE_PATH="coverage/pjsc$urls.coverage" NAME="urls Coverage Results" MODIFIED="1575355848838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp" />
   </component>
 </project>

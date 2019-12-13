@@ -1,7 +1,7 @@
-"""pjsc URL Configuration
+"""mypjsc URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/3.0/topics/http/urls/
+    https://docs.djangoproject.com/en/2.1/topics/http/urls/
 Examples:
 Function views
     1. Add an import:  from my_app import views
@@ -14,15 +14,10 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
-
-from myapp import urls
-
-
+from django.urls import path
+app_name = 'myapp'
+from myapp.views import form_data
+app_name = 'myapp'
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('pjsc/', include('myapp.urls')),
-    path('reverse/', include('resverapp.urls', namespace='rev')),
-    path('stat/', include('staticapp.urls', namespace='staticc')),
-    path('unload/', include('uploadapp.urls', namespace='unload'))
+    path('images/', form_data, name='uploa'),
 ]
