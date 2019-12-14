@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'mypjsc.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'test',
+        'NAME': 'myapp',
         'USER': 'sa',
         'PASSWORD': 'Hcyypassword123',
         'HOST': '10.168.40.11',
