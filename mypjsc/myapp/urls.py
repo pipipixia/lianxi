@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-app_name = 'myapp'
 from myapp.views import form_data, login, go_success
+app_name = 'myapp'
+
 
 app_name = 'myapp'
 urlpatterns = [

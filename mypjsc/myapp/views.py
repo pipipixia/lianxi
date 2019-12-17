@@ -40,7 +40,7 @@ def form_data(request):
         user = User.obects.get(username=request.user)
         huoz_id = user.huoz_id
         sql = 'SELECT spid, spbh, spmch, dw, shpgg, shengccj, pizhwh where huo_id = /"' + huoz_id
-        cursor.excuate(sql)
+        cursor.execute(sql)
         result = cursor.fetchall()
         MYAPP_DIR = os.path.dirname(os.path.abspath(__file__))
         dest_path = os.path.join(MYAPP_DIR, 'ststic', 'images', pj.name)
@@ -62,5 +62,4 @@ def go_success(request):
     return render(request, 'success.html')
 
 # 更改图片
-def change(request):
-
+# def change(request):
