@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8e59c3e7-af07-49de-82f4-af0967dbba62" name="Default Changelist" comment="" />
+    <list default="true" id="8e59c3e7-af07-49de-82f4-af0967dbba62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/middleware/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/mymiddleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageapp/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pjsc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pjsc/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,39 +17,109 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pjsc" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\PycharmProjects\pjsc\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1US6jTQF4Xpwc5RuF2vpowWbIZz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/dataapp" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pageapp" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\PycharmProjects\pjsc\myapp" />
-      <recent name="D:\PycharmProjects\pjsc\pjsc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\pjsc\pageapp" />
+      <recent name="D:\PycharmProjects\pjsc\cookiesapp" />
+      <recent name="D:\PycharmProjects\pjsc\advance01" />
+      <recent name="D:\PycharmProjects\pjsc\uploadapp" />
       <recent name="D:\PycharmProjects\pjsc\dataapp" />
-      <recent name="D:\PycharmProjects\pjsc\staticapp" />
-      <recent name="D:\PycharmProjects\pjsc\resverapp" />
-      <recent name="D:\PycharmProjects\pjsc\myapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\pjsc\cookiesapp\templates\record" />
+      <recent name="D:\PycharmProjects\pjsc\cookiesapp\views" />
+      <recent name="D:\PycharmProjects\pjsc\cookiesapp\cookie_views" />
+      <recent name="D:\PycharmProjects\pjsc\uploadapp\templates" />
+      <recent name="D:\PycharmProjects\pjsc\uploadapp\templates\uploadapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.urls">
+  <component name="RunManager" selected="Python.settings">
+    <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pjsc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pjsc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pjsc" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pjsc/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="urls" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pjsc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,6 +134,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/myapp/urls.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pjsc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uploadapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uploadapp/views.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,6 +189,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.views" />
+        <item itemvalue="Python.manage" />
         <item itemvalue="Python.urls" />
       </list>
     </recent_temporary>
@@ -107,7 +209,7 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\26909\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -120,12 +222,118 @@
       <workItem from="1575341102107" duration="8858000" />
       <workItem from="1575423041741" duration="13331000" />
       <workItem from="1575508817573" duration="10133000" />
-      <workItem from="1575594063005" duration="16496000" />
+      <workItem from="1575594063005" duration="20032000" />
+      <workItem from="1575681610359" duration="9471000" />
+      <workItem from="1575852853808" duration="2122000" />
+      <workItem from="1575873591047" duration="1872000" />
+      <workItem from="1575939917148" duration="603000" />
+      <workItem from="1575941445655" duration="5033000" />
+      <workItem from="1576027950921" duration="21166000" />
+      <workItem from="1576201890927" duration="542000" />
+      <workItem from="1576202467562" duration="4035000" />
+      <workItem from="1576207080460" duration="9623000" />
+      <workItem from="1576286259228" duration="10249000" />
+      <workItem from="1576459260464" duration="16039000" />
+      <workItem from="1576547351799" duration="16118000" />
+      <workItem from="1576631483083" duration="18524000" />
+      <workItem from="1576678692309" duration="4705000" />
     </task>
+    <task id="LOCAL-00001" summary="第二次">
+      <created>1575628225453</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575628225453</updated>
+    </task>
+    <task id="LOCAL-00002" summary="第三次">
+      <created>1575966221005</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575966221005</updated>
+    </task>
+    <task id="LOCAL-00003" summary="第四次">
+      <created>1576035834320</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576035834320</updated>
+    </task>
+    <task id="LOCAL-00004" summary="第五次">
+      <created>1576039963400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576039963400</updated>
+    </task>
+    <task id="LOCAL-00005" summary="第五次">
+      <created>1576040222475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576040222475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="第六次">
+      <created>1576054054653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576054054653</updated>
+    </task>
+    <task id="LOCAL-00007" summary="第七次">
+      <created>1576054083355</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576054083355</updated>
+    </task>
+    <task id="LOCAL-00008" summary="第八次">
+      <created>1576054589600</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576054589600</updated>
+    </task>
+    <task id="LOCAL-00009" summary="第九次">
+      <created>1576202091425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576202091425</updated>
+    </task>
+    <task id="LOCAL-00010" summary="第十次">
+      <created>1576311186956</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576311186956</updated>
+    </task>
+    <task id="LOCAL-00011" summary="第十一次">
+      <created>1576548751652</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576548751652</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="第二次" />
+    <MESSAGE value="第三次" />
+    <MESSAGE value="第四次" />
+    <MESSAGE value="第五次" />
+    <MESSAGE value="第六次" />
+    <MESSAGE value="第七次" />
+    <MESSAGE value="第八次" />
+    <MESSAGE value="第九次" />
+    <MESSAGE value="第十次" />
+    <MESSAGE value="第十一次" />
+    <option name="LAST_COMMIT_MESSAGE" value="第十一次" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1575445011943">
@@ -136,40 +344,79 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="349" y="88" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1280.680@0.0.1280.680" timestamp="1575616026238" />
+    <state x="437" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576303526134">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1576303526134" />
+    <state x="697" y="0" key="#models" timestamp="1575965776774">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="697" y="0" key="#models/0.0.1280.680@0.0.1280.680" timestamp="1575965776774" />
+    <state x="0" y="0" key="#views_(1)" timestamp="1576550311429">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="0" y="0" key="#views_(1)/0.0.1280.680@0.0.1280.680" timestamp="1576550311429" />
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1576663351661">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1576663351661" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1576572194076">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576572194076" />
     <state x="465" y="237" width="375" height="207" key="Github.CreateGistDialog" timestamp="1575620247238">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="465" y="237" width="375" height="207" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1575620247238" />
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom" timestamp="1575356224911">
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom" timestamp="1576217449569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575356224911" />
-    <state width="1202" height="147" key="GridCell.Tab.0.center" timestamp="1575356224910">
+    <state width="1237" height="141" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state width="1237" height="141" key="GridCell.Tab.0.center" timestamp="1576217449569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575356224910" />
-    <state width="1202" height="147" key="GridCell.Tab.0.left" timestamp="1575356224910">
+    <state width="1237" height="141" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state width="1237" height="141" key="GridCell.Tab.0.left" timestamp="1576217449569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575356224910" />
-    <state width="1202" height="147" key="GridCell.Tab.0.right" timestamp="1575356224910">
+    <state width="1237" height="141" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state width="1237" height="141" key="GridCell.Tab.0.right" timestamp="1576217449569">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1202" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575356224910" />
-    <state x="284" y="0" key="SettingsEditor" timestamp="1575512522804">
+    <state width="1237" height="141" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state x="476" y="315" key="Performance.Activity.Monitor" timestamp="1576566780100">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1575512522804" />
-    <state x="324" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1575341162594">
+    <state x="476" y="315" key="Performance.Activity.Monitor/0.0.1280.680@0.0.1280.680" timestamp="1576566780100" />
+    <state x="284" y="0" key="SettingsEditor" timestamp="1576214993590">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="324" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1575341162594" />
-    <state x="710" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1575618938586">
+    <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1576214993590" />
+    <state x="147" y="70" key="Vcs.Push.Dialog.v2" timestamp="1575625433791">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="710" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1575618938586" />
+    <state x="147" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1575625433791" />
+    <state x="324" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1576547352252">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="324" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576547352252" />
+    <state x="600" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576577420971">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="600" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1576577420971" />
+    <state x="156" y="0" width="658" height="680" key="find.popup" timestamp="1576477069618">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="156" y="0" width="658" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1576477069618" />
+    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1576682583397">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1576682583397" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pjsc$manage.coverage" NAME="manage Coverage Results" MODIFIED="1575965722132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pjsc$settings.coverage" NAME="settings Coverage Results" MODIFIED="1576217449559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pjsc" />
+    <SUITE FILE_PATH="coverage/pjsc$views.coverage" NAME="views Coverage Results" MODIFIED="1576217319180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uploadapp" />
     <SUITE FILE_PATH="coverage/pjsc$urls.coverage" NAME="urls Coverage Results" MODIFIED="1575355848838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myapp" />
   </component>
 </project>

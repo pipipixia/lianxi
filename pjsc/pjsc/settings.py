@@ -38,17 +38,25 @@ INSTALLED_APPS = [
     'myapp.apps.MyappConfig',
     'resverapp',
     'staticapp',
-    'dataapp'
+    'dataapp',
+    'modelsrelapp',
+    'uploadapp',
+    'advance01',
+    'cookiesapp',
+    'pageapp'
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'middleware.mymiddleware.Firstmiddleware',
+    'middleware.mymiddleware.Secondmiddleware',
+    'middleware.mymiddleware.LimitMiddleware'
 ]
 
 ROOT_URLCONF = 'pjsc.urls'
@@ -136,3 +144,14 @@ STATIC_ROOT = (
     os.path.join(BASE_DIR, 'collect_static')  # 通过’python manage.py collect_static‘
     # 将静态资源收集到static_root指向的目录中
 )
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True  # 当浏览器关闭时，清楚本地cookies，该属性与浏览器内核有关
+
+SESSION_COOKIES_AGE = 60  # 设置session存活时间
+SESSION_ENGINE = 'redis_sessions.session'  # 设置session存储引擎，将session配置到Redis中
+SESSION_REDIS = {
+    'host': '127.0.0.1',
+    'port': 6379,
+    'db': 14,
+    'prefix': 'pjsc',
+    'socket_timeout': 5
+}

@@ -5,6 +5,7 @@ class Fruit(models.Model):
     name = models.CharField(max_length=20)  # 模型类属性对应得表的字段
     price = models.FloatField()
     color = models.CharField(max_length=20)
+
     # image = models.ImageField()
 
     class Meta:
@@ -19,3 +20,15 @@ class Student(models.Model):
 
     class Meta:
         db_table = 'student'
+
+
+class Emp(models.Model):
+    name = models.CharField(max_length=20)
+    age = models.IntegerField()
+    sex = models.CharField(max_length=5)
+    salary = models.FloatField()
+    is_married = models.BooleanField()
+
+    class Meta:
+        db_table = 'emp'
+3

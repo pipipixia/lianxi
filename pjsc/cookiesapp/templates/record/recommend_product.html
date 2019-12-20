@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>推荐商品</title>
+</head>
+<body>
+ <h3>为您推荐：</h3>
+    <ul>
+        {% for product in recommend_list %}
+            <li> {{ product }} </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学生页</title>
+</head>
+<body>
+<table align="center" border="1">
+    <tr>
+        <th>学号</th>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>性别</th>
+        <th>成绩</th>
+    </tr>
+    {% for student in page %}
+    <tr>
+        <td>{{ student.id }}</td>
+        <td>{{ student.name }}</td>
+        <td>{{ student.age }}</td>
+        <td>{{ student.sex }}</td>
+        <td>{{ student.score }}</td>
+    </tr>
+    {% endfor %}
+</table>
+<center>
+    <a href="{% url 'page:index' %}">首页</a>
+    {% if page.has_previous %}
+        <a href="{% url 'page:stu_data' page.previous_page_number %}">上一页</a>
+    {% else %}
+        <a href="javascript:alert('已经是第一页了')">上一页</a>
+    {% endif %}
+    {% if page.has_next %}
+        <a href="{% url 'page:stu_data' page.next_page_number %}">下一页</a>
+     {% else %}
+        <a href="javascript:alert('没有下一页')">下一页</a>
+    {% endif %}
+    <a href="{% url 'page:stu_data' pagintor.num_pages %}">末页</a>
+</center>>
+</body>
+</html>

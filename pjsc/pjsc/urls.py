@@ -23,5 +23,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('pjsc/', include('myapp.urls')),
     path('reverse/', include('resverapp.urls', namespace='rev')),
-    path('stat/', include('staticapp.urls', namespace='staticc'))
+    path('stat/', include('staticapp.urls', namespace='staticc')),
+    path('unload/', include('uploadapp.urls', namespace='unload')),
+    path('advance/', include('advance01.urls', namespace='advance')),
+    path('cookie/', include('cookiesapp.urls', namespace='cok',)),
+    path('page/', include('pageapp.urls', namespace='page'))
 ]
