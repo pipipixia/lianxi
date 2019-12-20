@@ -20,7 +20,7 @@ class Community(models.Model):  # 社区模型
 
 class Relationship(models.Model):  # 第三方关系模型模型
     member = models.ForeignKey(Member, on_delete=models.CASCADE)  # 外键类属性，关联Memeber属性
-    community = models.ForeignKey(Community, on_delete=models.CASCADE)  # 外键类属性。关联Community
+    community = models.ForeignKey(Community, on_delete=models.CASCADE,)  # 外键类属性。关联Community
     jion_date = models.DateField(null=True)
     join_reason = models.CharField(max_length=100)
 

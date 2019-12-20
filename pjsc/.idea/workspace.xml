@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e59c3e7-af07-49de-82f4-af0967dbba62" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/mypjsc.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/ststic/images/123.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/ststic/images/girl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/templates/form_data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/myapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/mypjsc/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/mypjsc/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/mypjsc/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mypjsc/mypjsc/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadapp/templates/uploadapp/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uploadapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/mymiddleware.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pjsc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pjsc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pageapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageapp/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pjsc/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pjsc/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pjsc/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pjsc/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resverapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/resverapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploadapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/uploadapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +17,14 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pjsc" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -79,21 +56,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/uploadapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pageapp" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\pjsc\pageapp" />
+      <recent name="D:\PycharmProjects\pjsc\cookiesapp" />
+      <recent name="D:\PycharmProjects\pjsc\advance01" />
       <recent name="D:\PycharmProjects\pjsc\uploadapp" />
       <recent name="D:\PycharmProjects\pjsc\dataapp" />
-      <recent name="D:\PycharmProjects\pjsc\staticapp" />
-      <recent name="D:\PycharmProjects\pjsc\resverapp" />
-      <recent name="D:\PycharmProjects\pjsc\myapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\pjsc\cookiesapp\templates\record" />
+      <recent name="D:\PycharmProjects\pjsc\cookiesapp\views" />
+      <recent name="D:\PycharmProjects\pjsc\cookiesapp\cookie_views" />
+      <recent name="D:\PycharmProjects\pjsc\uploadapp\templates" />
       <recent name="D:\PycharmProjects\pjsc\uploadapp\templates\uploadapp" />
-      <recent name="D:\PycharmProjects\pjsc\myapp" />
-      <recent name="D:\PycharmProjects\pjsc\pjsc" />
     </key>
   </component>
   <component name="RunManager" selected="Python.settings">
@@ -253,6 +232,11 @@
       <workItem from="1576201890927" duration="542000" />
       <workItem from="1576202467562" duration="4035000" />
       <workItem from="1576207080460" duration="9623000" />
+      <workItem from="1576286259228" duration="10249000" />
+      <workItem from="1576459260464" duration="16039000" />
+      <workItem from="1576547351799" duration="16118000" />
+      <workItem from="1576631483083" duration="18524000" />
+      <workItem from="1576678692309" duration="4705000" />
     </task>
     <task id="LOCAL-00001" summary="第二次">
       <created>1575628225453</created>
@@ -317,7 +301,21 @@
       <option name="project" value="LOCAL" />
       <updated>1576202091425</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="第十次">
+      <created>1576311186956</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576311186956</updated>
+    </task>
+    <task id="LOCAL-00011" summary="第十一次">
+      <created>1576548751652</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576548751652</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +331,9 @@
     <MESSAGE value="第七次" />
     <MESSAGE value="第八次" />
     <MESSAGE value="第九次" />
-    <option name="LAST_COMMIT_MESSAGE" value="第九次" />
+    <MESSAGE value="第十次" />
+    <MESSAGE value="第十一次" />
+    <option name="LAST_COMMIT_MESSAGE" value="第十一次" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="0" key="#Inspections" timestamp="1575445011943">
@@ -344,18 +344,26 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="349" y="88" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/0.0.1280.680@0.0.1280.680" timestamp="1575616026238" />
+    <state x="437" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576303526134">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="437" y="174" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1576303526134" />
     <state x="697" y="0" key="#models" timestamp="1575965776774">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="697" y="0" key="#models/0.0.1280.680@0.0.1280.680" timestamp="1575965776774" />
-    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1576202089968">
+    <state x="0" y="0" key="#views_(1)" timestamp="1576550311429">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1576202089968" />
-    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1576215032353">
+    <state x="0" y="0" key="#views_(1)/0.0.1280.680@0.0.1280.680" timestamp="1576550311429" />
+    <state x="446" y="0" key="CommitChangelistDialog2" timestamp="1576663351661">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576215032353" />
+    <state x="446" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1576663351661" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1576572194076">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1576572194076" />
     <state x="465" y="237" width="375" height="207" key="Github.CreateGistDialog" timestamp="1575620247238">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -376,6 +384,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="141" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1576217449569" />
+    <state x="476" y="315" key="Performance.Activity.Monitor" timestamp="1576566780100">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="476" y="315" key="Performance.Activity.Monitor/0.0.1280.680@0.0.1280.680" timestamp="1576566780100" />
     <state x="284" y="0" key="SettingsEditor" timestamp="1576214993590">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -384,18 +396,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="147" y="70" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1575625433791" />
-    <state x="324" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1576207081590">
+    <state x="324" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1576547352252">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="324" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576207081590" />
-    <state x="600" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576059445542">
+    <state x="324" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1576547352252" />
+    <state x="600" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576577420971">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="600" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1576059445542" />
-    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1576207430624">
+    <state x="600" y="287" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1576577420971" />
+    <state x="156" y="0" width="658" height="680" key="find.popup" timestamp="1576477069618">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1576207430624" />
+    <state x="156" y="0" width="658" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1576477069618" />
+    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1576682583397">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="711" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1576682583397" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pjsc$manage.coverage" NAME="manage Coverage Results" MODIFIED="1575965722132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
